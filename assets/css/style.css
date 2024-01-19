@@ -15538,7 +15538,13 @@ body {
 .banner-shape-one {
   position: relative;
   z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: cover; /* Esto mantiene la proporción de la imagen y la ajusta al contenedor */
 }
+
 .banner-shape-one::before {
   position: absolute;
   content: "";
