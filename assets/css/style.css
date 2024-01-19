@@ -24099,7 +24099,20 @@ padding-right: 10px;
 }
 
 
+/* Estilos para la versión de escritorio */
+@media (min-width: 1200px) {
+  /* Ocultar el botón de hamburguesa */
+  #menu-btn {
+      display: none;
+  }
 
+  /* Mostrar la barra de navegación principal */
+  .main-nav {
+      display: flex;
+  }
+
+  /* Puedes ajustar otros estilos según tus necesidades */
+}
 
 
 
