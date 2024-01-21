@@ -17241,12 +17241,15 @@ a.rts-read-more:hover i {
 }
 
 .rts-single-service-one {
+  background-image: url(../images/working-process/01.png);
   padding: 40px;
-  background: #fff;
+  height: 390px;
+  width: 320px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 15px;
   transition: 0.3s;
-  box-shadow: 0px 14px 46px #E8EEF9;
-  height: 100%;
 }
 @media only screen and (max-width: 767px) {
   .rts-single-service-one {
