@@ -16693,10 +16693,12 @@ a.rts-read-more:hover i {
 
 .single-working-process-one {
   background-image: url(../images/working-process/01.png);
-  height: 304px;
+  height: 390px;
+  width: 320px;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 .single-working-process-one:hover .inner img.logo {
   transform: translateY(-10px) scale(1.02);
