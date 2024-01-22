@@ -100,6 +100,7 @@
   --h4: 36px;
   --h5: 24px;
   --h6: 22px;
+  
 }
 
 * {
@@ -17251,8 +17252,8 @@ a.rts-read-more:hover i {
 .rts-single-service-one {
   background-image: url(../images/working-process/01.png);
   padding: 40px;
-  height: 390px;
-  width: 320px;
+  height: 380px;
+  width: 310px;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17261,7 +17262,7 @@ a.rts-read-more:hover i {
 }
 @media only screen and (max-width: 767px) {
   .rts-single-service-one {
-    padding: 20px;
+    padding: 30px;
   }
 }
 .rts-single-service-one.home-three {
@@ -17279,8 +17280,8 @@ a.rts-read-more:hover i {
 }
 .rts-single-service-one p.disc {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 13px;
+  line-height: 18px;
   margin-bottom: 15px;
 }
 .rts-single-service-one:hover {
