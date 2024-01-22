@@ -16698,8 +16698,16 @@ a.rts-read-more:hover i {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-position: center; /* Agrega esta línea para centrar la imagen de fondo */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
+
+
 .single-working-process-one:hover .inner img.logo {
   transform: translateY(-10px) scale(1.02);
 }
@@ -24123,6 +24131,7 @@ padding-right: 10px;
 
   /* Puedes ajustar otros estilos según tus necesidades */
 }
+
 
 
 
