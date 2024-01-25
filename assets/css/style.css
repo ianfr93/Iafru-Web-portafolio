@@ -24103,11 +24103,14 @@ padding-right: 10px;
 .company h2 {
   font-size: 24px;
   margin-bottom: 10px;
+  color: #3A38E2;
 }
 
 .company p {
   font-size: 18px;
   margin: 0;
+  font-weight: bold;
+  color: #000000;
 }
 
 /* Estilos responsive */
