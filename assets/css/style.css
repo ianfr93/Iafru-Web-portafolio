@@ -21486,17 +21486,11 @@ p.disc {
 }
 
 .footer {
-  background-color:rgb(5, 67, 125);
+  background-color:#EFEFFD;
   color: white;
   text-align: center;
   padding: -30px 0 !important;
   margin-bottom: -40px;
-
-  background-image: url(../images/footer/fo-2.gif);
-  background-repeat: no-repeat;
-  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-  background-position: center; /* Centra la imagen en el fondo */
-
 }
 
 .container {
@@ -21669,15 +21663,9 @@ p.disc {
 }
 
 .rts-copyright-area {
-  background: #063159;
+  background: #000020;
   margin-bottom: 0px;
   margin-top: 6px;
-  background-image: url(../images/footer/fo-3.gif);
-  background-repeat: no-repeat;
-  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-  background-position: center; /* Centra la imagen en el fondo */
-
-
 }
 .rts-copyright-area.seven p {
   color: #949494;
