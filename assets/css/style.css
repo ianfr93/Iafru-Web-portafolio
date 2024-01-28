@@ -15367,13 +15367,13 @@ body {
 }
 .rts-btn.btn-primary {
   color: #fff;
-  background: #111A2E;
+  background: #16274d;
 }
 .rts-btn.btn-primary::before {
-  background: var(--color-primary);
+  background: var(--color-secondary);
 }
 .rts-btn.btn-primary:hover {
-  background: #1d2d4e;
+  background: #2b3b5f;
   color: #fff;
 }
 .rts-btn.btn-secondary {
@@ -17793,7 +17793,7 @@ a.rts-read-more:hover i {
   text-align: center;
   line-height: 46px;
   font-size: 24px;
-  color: var(--color-primary);
+  color: var(--color-secondary);
   left: 0;
   top: 0;
   height: 46px;
@@ -17803,7 +17803,7 @@ a.rts-read-more:hover i {
   z-index: 1;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
-  border: 2px solid var(--color-primary);
+  border: 2px solid var(--color-secondary);
   box-shadow: none;
   border-radius: 50% !important;
   border-radius: 5px;
@@ -17812,7 +17812,7 @@ a.rts-read-more:hover i {
 .progress-wrap:hover::after {
   opacity: 1;
   content: "\e84b";
-  border: 2px solid var(--color-primary);
+  border: 2px solid var(--color-secondary);
 }
 
 .progress-wrap::before {
@@ -17823,7 +17823,7 @@ a.rts-read-more:hover i {
   line-height: 46px;
   font-size: 24px;
   opacity: 0;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   left: 0;
@@ -17852,7 +17852,7 @@ a.rts-read-more:hover i {
 }
 
 .progress-wrap svg.progress-circle path {
-  stroke: var(--color-primary);
+  stroke: var(--color-secondary);
   stroke-width: 34px;
   box-sizing: border-box;
   -webkit-transition: all 200ms linear;
