@@ -14644,7 +14644,7 @@ header .active-dark {
   font-family: var(--font-primary);
 }
 .header-one .main-header .main-nav .mainmenu li.current a {
-  color: var(--color-primary);
+  color:#2e4b8a !important;
 }
 .header-one .header-right {
   display: flex;
@@ -15424,7 +15424,7 @@ body {
   z-index: 3;
   width: 0;
   height: 0;
-  border-left: 14px solid var(--color-primary);
+  border-left: 14px solid #16274d;
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
   top: 50%;
@@ -15661,7 +15661,7 @@ body {
 }
 
 a.rts-read-more {
-  color: var(--color-primary);
+  color:#2e4b8a;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
@@ -19068,7 +19068,7 @@ p.disc {
   }
 }
 .tab-button-area-one .nav li button.active {
-  background: var(--color-primary);
+  background: #16274d;
   color: #fff;
 }
 
@@ -24030,7 +24030,7 @@ html.rts-dark .banner-horizental-2 .banner-inner .item .image-title::before {
 }
 
 .progress-bar {
-  background-color: #3A38E2;
+  background-color: #2e4b8a;
   height: 100%;
   width: 0;
   transition: width 2s ease-in-out;
