@@ -14638,7 +14638,7 @@ header .active-dark {
 .header-one .main-header .main-nav .mainmenu li a {
   padding: 20px 0 20px 0;
   display: inline-block;
-  color: #111A2E;
+  color: #2e4b8a;
   font-weight: 500;
   font-size: 16px;
   font-family: var(--font-primary);
@@ -14963,7 +14963,8 @@ header.sticky a .stickys {
 }
 
 .header-one .main-header .main-nav .mainmenu li.current a {
-  color: var(--color-primary) !important;
+  color:#2e4b8a !important;
+  font-weight:var(--s-extra-bold)
 }
 
 .header-one.five.sticky .mainmenu li a:hover {
@@ -15125,7 +15126,7 @@ body {
   display: none;
 }
 .mainmenu li a:hover {
-  color: var(--color-primary) !important;
+  color:#0f7bb6 !important;
 }
 
 .sticky .mainmenu .has-droupdown > a::after {
@@ -21259,7 +21260,7 @@ p.disc {
 
 .cta-bg-h4 {
   background-image: url(../images/cta/05.jpg);
-  background-color: #231FE4;
+  background-color: #221fe440;
   background-blend-mode: multiply;
   overflow: hidden;
   z-index: 1;
@@ -21276,8 +21277,9 @@ p.disc {
   color: #fff;
 }
 .cta-bg-h4 .title-area .button-area .btn-primary {
-  color: #231FE4;
-  background: #231FE4;
+  color: #16274d;
+  background: #16274d;
+  margin-top: 10px;
 }
 .cta-bg-h4 .title-area .button-area .btn-primary:hover {
   color: #fff;
@@ -24070,7 +24072,7 @@ padding-right: 10px;
 }
 
 .container-1{
-  background-color: #EFEFFD;
+  background-color: #EFEFFD transparent;
 }
 
 .banner {
@@ -24080,7 +24082,7 @@ padding-right: 10px;
 }
 
 .company {
-  background-color: #EFEFFD;
+  background-color: #EFEFFD transparent;
   color: white;
   padding: 20px;
   margin: 10px;
@@ -24091,14 +24093,14 @@ padding-right: 10px;
 .company h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #3A38E2;
+  color: #fff;
 }
 
 .company p {
   font-size: 18px;
   margin: 0;
   font-weight: bold;
-  color: #000000;
+  color: #fff;
 }
 
 /* Estilos responsive */
