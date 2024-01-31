@@ -21279,7 +21279,7 @@ p.disc {
 .cta-bg-h4 .title-area .button-area .btn-primary {
   color: #16274d;
   background: #16274d;
-  margin-top: 10px;
+  margin-top: 60px;
 }
 .cta-bg-h4 .title-area .button-area .btn-primary:hover {
   color: #fff;
@@ -21488,7 +21488,8 @@ p.disc {
 }
 
 .footer {
-  background-color:#6f7c96;
+  background-color:#506b90;
+
   color: white;
   text-align: center;
   padding: -30px 0 !important;
