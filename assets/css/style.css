@@ -21517,7 +21517,7 @@ p.disc {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(80, 107, 144, 0.601), rgba(37, 55, 70, 0.7)); /* Ajusta los colores y la opacidad */
+  background: linear-gradient(to right, rgba(80, 107, 144, 0.108), rgba(37, 55, 70, 0.529)); 
   z-index: 0;
 }
 
@@ -21682,18 +21682,36 @@ p.disc {
 }
 
 .rts-copyright-area {
-  background: linear-gradient(to right, #405372, #253746); 
-
-  margin-bottom: 0px;
+  position: relative;
+  background-image: url(../images/cta/03.jpg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
   margin-top: 6px;
 }
+
+.rts-copyright-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #405372b2, #25374682); 
+
+}
+
+
 .rts-copyright-area.seven p {
-  color: #949494;
+  color: #ffffff;
+ 
 }
 .rts-copyright-area.seven p a {
   color: #ffffff;
   font-weight: 500;
   transition: all 0.4s;
+ 
 }
 .rts-copyright-area.seven p a:hover {
   color: var(--color-primary);
@@ -21732,6 +21750,8 @@ p.disc {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
+
+
 }
 
 .rts-footer-left-two {
