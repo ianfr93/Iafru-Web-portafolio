@@ -21571,32 +21571,42 @@ p.disc {
 .social-area li {
   margin-right: 40px;
   position: relative;
-  z-index: 999!important; 
+  z-index: 10!important;
+}
+
+.social-area li a {
+  position: relative;
+  color: #0c3992;
+  text-decoration: none;
 }
 
 .social-area li a i {
-  color: #0c3992;
   font-size: 14px;
+  z-index: 3; /* Asegura que el ícono esté por encima del fondo */
 }
+
 .social-area li a::after {
+  content: "";
   position: absolute;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background: #ffffff;
-  content: "";
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: -1;
+  z-index: -2; /* Asegura que el fondo esté detrás del ícono */
   transition: 0.3s;
 }
+
 .social-area li a:hover i {
   color: #fff;
 }
+
 .social-area li a:hover::after {
   background: var(--color-primary);
 }
+
 
 .footer-right-one {
   padding-left: 100px;
