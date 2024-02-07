@@ -21267,7 +21267,6 @@ p.disc {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  z-index: 1;
   height: 100%;
 }
 .cta-bg-h4 .title-area span {
