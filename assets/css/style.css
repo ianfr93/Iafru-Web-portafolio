@@ -21604,7 +21604,7 @@ p.disc {
 }
 
 .social-area li a:hover::after {
-  background: var(--color-primary);
+  background: var(--color-secondary);
 }
 
 
