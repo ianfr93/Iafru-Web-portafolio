@@ -21260,15 +21260,27 @@ p.disc {
 
 .cta-bg-h4 {
   background-image: url(../images/cta/03.jpg);
-  background-color: #221fe440;
   background-blend-mode: multiply;
-  overflow: hidden;
-  z-index: 1;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   height: 100%;
+  overflow: hidden;
+  z-index: 1;
 }
+
+.cta-bg-h4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(80, 107, 144, 0.382), rgba(37, 55, 70, 0.534)); /* Ajusta los colores y la opacidad */
+  z-index: -1;
+}
+
+
 .cta-bg-h4 .title-area span {
   color: #fff;
 }
