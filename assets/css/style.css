@@ -21570,16 +21570,16 @@ p.disc {
   margin-top: -10px;
 
 
+
  
 
 }
 .social-area li {
   margin-right: 40px;
-}
-.social-area li a {
   position: relative;
-  z-index: 1;
+  z-index: 999!important; 
 }
+
 .social-area li a i {
   color: #0c3992;
   font-size: 14px;
