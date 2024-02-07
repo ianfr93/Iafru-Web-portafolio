@@ -21485,10 +21485,8 @@ p.disc {
 .case-study-area .item .read-more span {
   float: right;
 }
-
 .footer {
-  background-color:#506b90;
-
+  background: linear-gradient(to right, #506b90, #253746); 
   color: white;
   text-align: center;
   padding: -30px 0 !important;
@@ -21665,7 +21663,8 @@ p.disc {
 }
 
 .rts-copyright-area {
-  background: #405372;
+  background: linear-gradient(to right, #405372, #253746); 
+
   margin-bottom: 0px;
   margin-top: 6px;
 }
