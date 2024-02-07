@@ -21276,7 +21276,7 @@ p.disc {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, rgba(80, 107, 144, 0.382), rgba(37, 55, 70, 0.534)); /* Ajusta los colores y la opacidad */
+  background-image: linear-gradient(to right, rgba(80, 107, 144, 0.574), rgba(37, 55, 70, 0.534)); /* Ajusta los colores y la opacidad */
   z-index: -1;
 }
 
