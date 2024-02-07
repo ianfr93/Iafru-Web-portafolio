@@ -21507,6 +21507,7 @@ p.disc {
   margin-bottom: -40px;
   color: white;
   text-align: center;
+  z-index: -4;
 }
 
 .footer::before {
@@ -21531,9 +21532,6 @@ p.disc {
 .footer-one-bg {
   background: #146a98;
   color: #fff; /* Agrega color de texto para que sea visible en el fondo oscuro */
-
- 
-  
 }
 
 .footer-one-left a.logo img {
@@ -21542,8 +21540,6 @@ p.disc {
   left: 10px;
   width: 150px;
   height: 150px;
-  z-index: 10;
-
 }
 
 
@@ -21555,9 +21551,6 @@ p.disc {
   text-align: center;
 
 }
-
-
-
 
 
 .rts-footer-area-one {
